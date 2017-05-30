@@ -4,11 +4,11 @@ spring:
   application:
     name: hystrix-dashboard
 ---
-spring:
-  profiles: docker
-  cloud:
-    config:
-      uri: http://config-service:8888
+#spring:
+#  profiles: docker
+#  cloud:
+#    config:
+#      uri: http://config-service:8888
 ---
 spring:
   profiles: default

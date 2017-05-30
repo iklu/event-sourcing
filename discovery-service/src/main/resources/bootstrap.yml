@@ -5,8 +5,8 @@ spring:
     name: discovery-service
 
 ---
-spring:
-  profiles: docker
-  cloud:
-    config:
-      uri: http://${DOCKER_IP:192.168.99.100}:8888
+#spring:
+#  profiles: docker
+#  cloud:
+#    config:
+#      uri: http://${DOCKER_IP:192.168.99.100}:8888
